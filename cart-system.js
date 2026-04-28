@@ -278,83 +278,83 @@ function setupAddToCartButtons() {
                 if (parentHTML.includes('Classical Espresso') || buttonText.includes('Classical')) {
                     name = 'Classical Espresso';
                     price = '24.99';
-                    image = 'ClassicalEspresso.jpg';
+                    image = 'img/ClassicalEspresso.jpg';
                 } else if (parentHTML.includes('Espresso Italiano')) {
                     name = 'Espresso Italiano';
                     price = '26.99';
-                    image = 'EspressoItaliano.jpg';
+                    image = 'img/EspressoItaliano.jpg';
                 } else if (parentHTML.includes('Supreme Latte Blend')) {
                     name = 'Supreme Latte Blend';
                     price = '19.99';
-                    image = 'SupremeLatte.jpg';
+                    image = 'img/SupremeLatte.jpg';
                 } else if (parentHTML.includes('Vanilla Latte Blend')) {
                     name = 'Vanilla Latte Blend';
                     price = '21.99';
-                    image = 'VanillaLatte.jpg';
+                    image = 'img/VanillaLatte.jpg';
                 } else if (parentHTML.includes('Elite Cold Brew')) {
                     name = 'Elite Cold Brew';
                     price = '22.99';
-                    image = 'EliteCold.jpg';
+                    image = 'img/EliteCold.jpg';
                 } else if (parentHTML.includes('Tropical Cold Brew')) {
                     name = 'Tropical Cold Brew';
                     price = '23.99';
-                    image = 'TropicalCold.jpg';
+                    image = 'img/TropicalCold.jpg';
                 } else if (parentHTML.includes('Signature Premium Blend')) {
                     name = 'Signature Premium Blend';
                     price = '32.99';
-                    image = 'SignaturePreBlend.jpg';
+                    image = 'img/SignaturePreBlend.jpg';
                 } else if (parentHTML.includes('Americano')) {
                     name = 'Americano';
                     price = '28.99';
-                    image = 'Americano.jpg';
+                    image = 'img/Americano.jpg';
                 }
                 // Brewing Equipment page products
                 else if (parentHTML.includes('Professional Espresso')) {
                     name = 'Professional Espresso Machine';
                     price = '1299.99';
-                    image = 'proEspMac.jpg';
+                    image = 'img/proEspMac.jpg';
                 } else if (parentHTML.includes('Home Espresso Maker')) {
                     name = 'Home Espresso Maker';
                     price = '599.99';
-                    image = 'proEspMac.jpg';
+                    image = 'img/proEspMac.jpg';
                 } else if (parentHTML.includes('Premium Burr Grinder')) {
                     name = 'Premium Burr Grinder';
                     price = '349.99';
-                    image = 'PreburrGrin.jpg';
+                    image = 'img/PreburrGrin.jpg';
                 } else if (parentHTML.includes('Manual Coffee Grinder')) {
                     name = 'Manual Coffee Grinder';
                     price = '89.99';
-                    image = 'PreburrGrin.jpg';
+                    image = 'img/PreburrGrin.jpg';
                 } else if (parentHTML.includes('Luxury French Press')) {
                     name = 'Luxury French Press';
                     price = '799.99';
-                    image = 'press.jpg';
+                    image = 'img/press.jpg';
                 } else if (parentHTML.includes('Classic French Press')) {
                     name = 'Classic French Press';
                     price = '599.99';
-                    image = 'claPre.jpg';
+                    image = 'img/claPre.jpg';
                 } else if (parentHTML.includes('Pour Over Kit')) {
                     name = 'Pour Over Kit';
                     price = '129.99';
-                    image = 'pour.jpg';
+                    image = 'img/pour.jpg';
                 } else if (parentHTML.includes('Ceramic Pour Over')) {
                     name = 'Ceramic Pour Over Dripper';
                     price = '59.99';
-                    image = 'pour.jpg';
+                    image = 'img/pour.jpg';
                 }
                 // Offer page products
                 else if (parentHTML.includes('Spring Coffee Bundle')) {
                     name = 'Spring Coffee Bundle';
                     price = '49.99';
-                    image = 'https://images.unsplash.com/photo-1638126687923-31912a6ee0ff?w=400';
+                    image = 'img/bestSeller.jpg';
                 } else if (parentHTML.includes('Barista Starter Kit')) {
                     name = 'Barista Starter Kit';
                     price = '199.99';
-                    image = 'https://images.unsplash.com/photo-1634709170162-23a76022e9c9?w=400';
+                    image = 'img/homeBarista.jpg';
                 } else if (parentHTML.includes('Monthly Coffee Sampler')) {
                     name = 'Monthly Coffee Sampler';
                     price = '59.99';
-                    image = 'https://images.unsplash.com/photo-1646325742177-21f298f470c6?w=400';
+                    image = 'img/roasting.jpg';
                 }
             }
             
