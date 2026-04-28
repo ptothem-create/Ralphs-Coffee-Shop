@@ -1,0 +1,725 @@
+/* nav bar */
+header{
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(86, 46, 46);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: large;
+}
+body{
+    margin: 0;
+}
+h2{
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: large;
+}
+.hb{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    padding: 10px;
+}
+.hb:hover{
+    color: rgb(255, 255, 0);
+     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+    border: 1px;
+    border-radius: 30px;
+}
+.shoplogo{
+    padding-left: 20px;
+}
+.shoppingCart{
+    font-size:x-large;
+} 
+#cartCount {
+    background: #ffd700;
+    color: #4a1a1a;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    display: none;
+}
+
+.cartIcon {
+    position: relative;
+}
+/* title section */
+.title{
+    background: linear-gradient(to right, rgb(111, 15, 5),rgb(114, 5, 5)) ;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1px 70px;
+    margin-bottom: 0px;
+}
+.Tit1{
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 0 300px;
+}
+#sele1{
+    font-size: 70px;
+    color: white;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+#sele2{
+    font-size: 30px;
+    color: white;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+/* search bar section */
+.searchArea{
+    text-align:center; 
+    padding-top: 50px;
+}
+#machineSearch{
+    padding: 10px 20px;
+    width: 900px;
+    height: 30px;
+    border: 2px solid #881919;
+    border-radius: 50px;
+    font-size: 18px;
+}
+.bi-search{
+    font-size: 25px;
+    padding-right: 10px;
+    color: #881919;
+}
+/* coffee selection */
+.proesp,.pre,.luxpress,.pour{
+    border-radius: 5%;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.Mac{
+    display:flex;
+    padding: 25px;
+    justify-content: space-around;
+}
+.card{
+    gap: 30px;
+    padding: 40px;
+}
+.proEspMac1,.proEsp2,.preburr1,.preburr2,.french1,.french2,.pour1,.pour2{
+    background: #f2f2f2;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(56, 52, 52, 0);
+    transition: 0.3s ease;
+}
+.proEspMac1:hover,.proEspMac2:hover,.preburr1:hover,.preburr2:hover,.french1:hover,.french2:hover,.pour1:hover,.pour2:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.content{
+    padding: 20px;
+}
+.macPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.Price{
+    font-size: 25px;
+    font-weight: bold;
+    color: #8b0000;
+}
+button{
+    background: #881919;
+    color: rgb(255, 251, 251);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+}
+.Machine{
+    background: #ffffff;
+    margin: 0;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 25px;
+    font-family: none;
+    color: rgb(68, 49, 49);
+}
+span{
+    color: gold;
+}
+.MacTit{
+    font-family: none;
+    color:rgb(86, 46, 46);
+    padding-left: 70px;
+}
+.hd{
+    height: 1px;
+    width: 90%;
+    background-color:rgb(205, 51, 51);
+
+}
+.Tit{
+    font-size: 30px;
+    margin-top: 10px;
+    color:rgb(86, 46, 46);
+}
+/* footer section */
+.homeFoot{
+     margin:0;
+    background-color: rgb(57, 15, 15);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 1px 0px;
+    border-bottom: 2px black;
+}
+.footText{
+    display: flex;
+    justify-content: space-around;
+}
+.t1Head{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.t2Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.t2Body{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+}
+.t3Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.bi-telephone,.bi-geo-alt, .bi-envelope, .bi-facebook, .bi-instagram{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+}
+.t3Body{
+    font-size: 19px;
+    color: rgb(146, 135, 135);  
+}
+.t4Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.t4Body,.ql{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+    text-decoration: none;
+    line-height: 35px;
+}
+.ql:hover{
+    color: rgb(204, 177, 23);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+}
+.ql{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#ft{
+    color: rgb(53, 47, 47); 
+    height: 0px;
+    width: 85%;
+}
+.finText{
+    text-align: center;
+    padding: 20px 0px;
+}
+#finalText{
+    font-size: 20px;
+    color: grey;
+}
+/* responsive section */
+/* Tablet Landscape (1024px - 1200px) */
+@media screen and (max-width: 1200px) {
+    .card {
+        padding: 30px;
+    }
+    
+    .Mac {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    
+    .proEspMac1, .proEspMac2, .preburr1, .preburr2, .french1, .french2, .pour1, .pour2 {
+        width: 45%;
+    }
+    
+    .proesp, .pre, .luxpress, .pour {
+        height: 280px;
+    }
+    
+    .searchArea {
+        padding-top: 40px;
+    }
+    
+    #machineSearch {
+        width: 700px;
+    }
+    
+    .MacTit {
+        padding-left: 30px;
+        font-size: 28px;
+    }
+}
+
+/* Tablet Portrait (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .title {
+        padding: 1px 40px;
+    }
+    
+    .Tit1 {
+        padding: 0 100px;
+    }
+    
+    #sele1 {
+        font-size: 55px;
+        margin-top: 45px;
+    }
+    
+    #sele2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    
+    .searchArea {
+        padding-top: 35px;
+    }
+    
+    #machineSearch {
+        width: 550px;
+        padding: 8px 18px;
+        font-size: 16px;
+    }
+    
+    .bi-search {
+        font-size: 22px;
+    }
+    
+    .card {
+        padding: 25px;
+    }
+    
+    .proEspMac1, .proEspMac2, .preburr1, .preburr2, .french1, .french2, .pour1, .pour2 {
+        width: 45%;
+    }
+    
+    .proesp, .pre, .luxpress, .pour {
+        height: 250px;
+    }
+    
+    .content {
+        padding: 15px;
+    }
+    
+    h3.Tit {
+        font-size: 22px;
+        margin: 0 0 8px 0;
+    }
+    
+    .Text {
+        font-size: 14px;
+    }
+    
+    .Price {
+        font-size: 22px;
+    }
+    
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    .MacTit {
+        padding-left: 20px;
+        font-size: 26px;
+    }
+    
+    .hd {
+        width: 95%;
+    }
+    
+    .footText {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 20px;
+    }
+    
+    .text1, .text2, .text3, .text4 {
+        flex: 0 0 auto;
+        min-width: 200px;
+    }
+}
+
+/* Mobile Landscape (576px - 768px) */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    h2#shoplogo {
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hb {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+    
+    .shoppingCart {
+        font-size: 20px;
+    }
+    
+    .title {
+        padding: 1px 20px;
+    }
+    
+    .Tit1 {
+        padding: 0 30px;
+    }
+    
+    #sele1 {
+        font-size: 45px;
+        margin-top: 40px;
+    }
+    
+    #sele2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .searchArea {
+        padding-top: 30px;
+    }
+    
+    #machineSearch {
+        width: 90%;
+        max-width: 500px;
+        height: 25px;
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+    
+    .bi-search {
+        font-size: 20px;
+    }
+    
+    .card {
+        padding: 20px;
+    }
+    
+    .proEspMac1, .proEspMac2, .preburr1, .preburr2, .french1, .french2, .pour1, .pour2 {
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    
+    .Mac {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 10px;
+    }
+    
+    .proesp, .pre, .luxpress, .pour {
+        height: 260px;
+    }
+    
+    .content {
+        padding: 18px;
+    }
+    
+    h3.Tit {
+        font-size: 20px;
+    }
+    
+    .Text {
+        font-size: 13px;
+    }
+    
+    .macPrice {
+        margin-top: 15px;
+    }
+    
+    .Price {
+        font-size: 20px;
+    }
+    
+    button {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+    
+    .MacTit {
+        padding-left: 15px;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .hd {
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .grinders, .FrenchPress, .PourKit {
+        margin-top: 30px;
+    }
+    
+    .footText {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .text1, .text2, .text3, .text4 {
+        text-align: center;
+    }
+    
+    .t1Head {
+        font-size: 40px;
+    }
+    
+    .t2Head, .t3Head, .t4Head {
+        font-size: 24px;
+    }
+    
+    .t2Body, .t3Body, .t4Body, .ql {
+        font-size: 16px;
+    }
+    
+    .finText {
+        padding: 15px 10px;
+    }
+    
+    #finalText {
+        font-size: 14px;
+    }
+    
+    hr, #ft {
+        width: 95%;
+    }
+    
+    span i {
+        font-size: 14px;
+    }
+}
+
+/* Mobile Portrait (320px - 576px) */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 10px;
+    }
+    
+    h2#shoplogo {
+        font-size: 18px;
+    }
+    
+    nav ul {
+        gap: 8px;
+    }
+    
+    .hb {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+    
+    .title {
+        padding: 1px 15px;
+    }
+    
+    .Tit1 {
+        padding: 0 15px;
+    }
+    
+    #sele1 {
+        font-size: 32px;
+        margin-top: 35px;
+        margin-bottom: 8px;
+    }
+    
+    #sele2 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .searchArea {
+        padding-top: 25px;
+    }
+    
+    #machineSearch {
+        padding: 6px 12px;
+        font-size: 14px;
+        height: 22px;
+    }
+    
+    .bi-search {
+        font-size: 18px;
+    }
+    
+    .card {
+        padding: 15px;
+    }
+    
+    .proesp, .pre, .luxpress, .pour {
+        height: 220px;
+    }
+    
+    .content {
+        padding: 15px;
+    }
+    
+    h3.Tit {
+        font-size: 18px;
+    }
+    
+    .Text {
+        font-size: 12px;
+    }
+    
+    .macPrice {
+        margin-top: 12px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .Price {
+        font-size: 18px;
+    }
+    
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    
+    .MacTit {
+        font-size: 20px;
+        padding-left: 0;
+    }
+    
+    .t1Head {
+        font-size: 32px;
+    }
+    
+    .t2Head, .t3Head, .t4Head {
+        font-size: 20px;
+    }
+    
+    .t2Body, .t3Body, .t4Body, .ql {
+        font-size: 14px;
+    }
+    
+    .ql {
+        padding: 5px 10px;
+    }
+    
+    #finalText {
+        font-size: 12px;
+    }
+    
+    span i {
+        font-size: 12px;
+    }
+}
+
+/* Small Mobile (375px) */
+@media screen and (max-width: 375px) {
+    #sele1 {
+        font-size: 28px;
+    }
+    
+    #sele2 {
+        font-size: 12px;
+    }
+    
+    .proesp, .pre, .luxpress, .pour {
+        height: 200px;
+    }
+    
+    h3.Tit {
+        font-size: 16px;
+    }
+    
+    .Price {
+        font-size: 16px;
+    }
+    
+    button {
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+    
+    .MacTit {
+        font-size: 18px;
+    }
+}
+
+/* Touch device hover fix */
+@media (hover: none) and (pointer: coarse) {
+    .hb:hover, .ql:hover, button:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .hb:active, .ql:active, button:active {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    
+    .proEspMac1:hover, .proEspMac2:hover, .preburr1:hover, .preburr2:hover, 
+    .french1:hover, .french2:hover, .pour1:hover, .pour2:hover {
+        transform: none;
+    }
+    
+    .proEspMac1:active, .proEspMac2:active, .preburr1:active, .preburr2:active,
+    .french1:active, .french2:active, .pour1:active, .pour2:active {
+        transform: translateY(-3px);
+    }
+}

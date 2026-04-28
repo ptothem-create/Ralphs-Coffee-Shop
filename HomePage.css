@@ -1,0 +1,967 @@
+/* Nav Bar */
+header{
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(86, 46, 46);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: large;
+}
+h2{
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: large;
+}
+.hb{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    padding: 10px;
+}
+.hb:hover{
+    color: rgb(255, 255, 0);
+     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+    border: 1px;
+    border-radius: 30px;
+}
+.shoplogo{
+    padding-left: 20px;
+}
+.shoppingCart{
+    font-size:x-large;
+}
+/* shopping cart no.  */
+#cartCount {
+    background: #ffd700;
+    color: #4a1a1a;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    display: none;
+}
+.cartIcon {
+    position: relative;
+}
+/* HomePage Section */
+.storyIMG{
+    border-radius: 3%;
+    width: 380px;
+}
+.homePage{
+    content: "";
+    inset: 0;
+    background: linear-gradient(to right, #951c3f, #000000);
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 200px 90px;
+    margin-bottom: 0px;
+}
+.homeDesign{
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 0 300px;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+.ELI{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(233, 233, 233)
+}
+#btn:hover{
+     transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+#btn{
+    background: #9a062b;
+    color:rgb(197, 177, 177);
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+body{
+    margin:0;
+    background-image: url('HomePage_BG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.Story{
+    margin:0;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 1px 0px;
+}
+#OS{
+    padding: 0px 0px;
+    font-size: 40px;
+    color: rgb(110, 65, 65);
+}
+.styText{
+    font-size: 20px;
+}
+/* story section */
+.containerForStory{
+    display: flex;
+    gap: 70px;
+    margin: 40px;
+    padding: 60px 40px;
+}
+.notes{
+    font-size: medium;
+}
+.marking{
+    display: flex;
+    gap: 50px;
+}
+.bi-check-square{
+    color:rgb(192, 48, 48);
+}
+.bi-clock{
+    color:rgb(192, 48, 48);
+}
+.bi-heart{
+    color:rgb(192, 48, 48);
+}
+/* review section */
+#revTitle {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+    padding: 0;
+    color: white;
+    margin-top: 1px;
+}
+#revSubT {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 60px;
+    padding: 0;
+    color: white;
+}
+.containerForRev{
+    margin:0;
+    background: linear-gradient(135deg, #4b1e1e, #1a1a1a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 100px 20px;
+}
+#Sarah, #Emily, #James, #Michael {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    width: 550px;
+    padding: 50px 40px;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    text-align: center;
+}
+.reviewWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi-star-fill, .bi-star-half{
+    color: gold;
+    font-size: 30px;
+}
+.revText {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #f5f5f5;
+}
+.revName {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d4af37;
+}
+.prev, .next {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    border-radius: 40%;
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.prev:hover, .next:hover {
+    background: #d4af37;
+    color: black;
+    transform: scale(1.1);
+}
+.prev{
+    margin-right: 100px;
+}
+.next{
+    margin-left: 100px;
+}
+/* map section */
+.map{
+    background-color:#f9f9f9;
+    margin: 0;
+}
+.mapTitle{
+    font-size: 45px;
+    font-weight: bold;
+    color:rgb(104, 9, 9);
+    justify-content: center;
+    padding: 10px 30px 30px 500px;
+}
+iframe{
+    border-radius: 50px;
+    width: 750px;
+    margin-bottom: 50px;
+    background: gold;
+    padding: 3px 3px;
+    font-weight: bold;
+}
+.mapBody{
+    padding-left: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.bi-calendar-range,.bi-hourglass,.bi-map{
+    padding-right: 15px;
+}
+.mapT1{
+    font-size: 30px;
+    color: rgb(104, 18, 18);
+}
+.mapT2{
+    font-size: 25px;
+    padding-left: 50px
+}
+/* Youtube section */
+.titleyt{
+    font-size: 50px;
+    color: white;
+    padding-left: 350px;
+    margin-top: 20px;
+}
+.video{
+    margin:0;
+    background: linear-gradient(135deg, #4b1e1e, #1a1a1a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 50px 20px;
+}
+.vidBody{
+    justify-content: center;
+}
+.ytBody{
+    padding-left: 370px;
+}
+/* footer section */
+.homeFoot{
+     margin:0;
+    background-color: rgb(57, 15, 15);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 1px 0px;
+    border-bottom: 2px black;
+}
+.footText{
+    display: flex;
+    justify-content: space-around;
+}
+.t1Head{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.t2Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.t2Body{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+}
+.t3Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.bi-telephone,.bi-geo-alt, .bi-envelope, .bi-facebook, .bi-instagram{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+}
+.t3Body{
+    font-size: 19px;
+    color: rgb(146, 135, 135);  
+}
+.t4Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.t4Body,.ql{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+    text-decoration: none;
+    line-height: 35px;
+}
+.ql:hover{
+    color: rgb(204, 177, 23);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+}
+.ql{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+hr{
+    color: rgb(53, 47, 47); 
+    height: 0px;
+    width: 85%;
+}
+.finText{
+    text-align: center;
+    padding: 20px 0px;
+}
+#finalText{
+    font-size: 20px;
+    color: grey;
+}
+
+/* responsive section */
+
+/* Tablet Landscape (1024px - 1200px) */
+@media screen and (max-width: 1200px) {
+    .homeDesign {
+        padding: 0 150px;
+    }
+    
+    .containerForStory {
+        gap: 40px;
+        padding: 40px 30px;
+    }
+    
+    .storyIMG {
+        width: 320px;
+    }
+    
+    .mapTitle {
+        padding: 10px 30px 30px 200px;
+    }
+    
+    .titleyt {
+        padding-left: 150px;
+    }
+    
+    .ytBody {
+        padding-left: 150px;
+    }
+}
+
+/* Tablet Portrait (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .homePage {
+        padding: 120px 50px;
+    }
+    
+    .homeDesign {
+        padding: 0 80px;
+    }
+    
+    h1 {
+        font-size: 48px;
+    }
+    
+    .ELI {
+        font-size: 24px;
+    }
+    
+    #btn {
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+    
+    .containerForStory {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        padding: 40px 20px;
+    }
+    
+    .storyIMG {
+        width: 400px;
+    }
+    
+    .marking {
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    #OS {
+        font-size: 35px;
+    }
+    
+    .styText {
+        font-size: 18px;
+    }
+    
+    .reviewWrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .prev, .next {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+        margin: 0 20px;
+    }
+    
+    .prev {
+        margin-right: 20px;
+    }
+    
+    .next {
+        margin-left: 20px;
+    }
+    
+    #Sarah, #Emily, #James, #Michael {
+        width: 450px;
+        padding: 35px 25px;
+    }
+    
+    .revText {
+        font-size: 18px;
+    }
+    
+    .revName {
+        font-size: 24px;
+    }
+    
+    .mapTitle {
+        padding: 10px 20px 20px 50px;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .mapBody {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+    
+    iframe {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .maptext {
+        text-align: center;
+    }
+    
+    .mapT2 {
+        padding-left: 0;
+    }
+    
+    .titleyt {
+        padding-left: 0;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .ytBody {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .ytBody iframe {
+        width: 90%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+    
+    .mapBody iframe {
+        width: 90%;
+        max-width: 600px;
+        height: auto;
+        aspect-ratio: 4 / 3;
+    }
+    
+    .footText {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 20px;
+    }
+    
+    .text1, .text2, .text3, .text4 {
+        flex: 0 0 auto;
+        min-width: 200px;
+    }
+    
+    .revBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Mobile Landscape (576px - 768px) */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    h2#shoplogo {
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hb {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+    
+    .shoppingCart {
+        font-size: 20px;
+    }
+    
+    .homePage {
+        padding: 80px 20px;
+    }
+    
+    .homeDesign {
+        padding: 0 20px;
+    }
+    
+    h1 {
+        font-size: 36px;
+    }
+    
+    .ELI {
+        font-size: 18px;
+    }
+    
+    #btn {
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+    
+    .containerForStory {
+        padding: 30px 15px;
+    }
+    
+    .storyIMG {
+        width: 100%;
+        max-width: 350px;
+    }
+    
+    #OS {
+        font-size: 28px;
+    }
+    
+    .styText {
+        font-size: 16px;
+    }
+    
+    .styText p {
+        margin: 8px 0;
+    }
+    
+    .marking {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+    
+    .reviewWrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .prev, .next {
+        margin: 5px 0;
+        width: 45px;
+        height: 45px;
+    }
+    
+    #Sarah, #Emily, #James, #Michael {
+        width: 90%;
+        max-width: 400px;
+        padding: 30px 20px;
+    }
+    
+    .revText {
+        font-size: 16px;
+    }
+    
+    .revName {
+        font-size: 20px;
+    }
+    
+    .bi-star-fill, .bi-star-half {
+        font-size: 24px;
+    }
+    
+    .mapTitle {
+        font-size: 28px;
+        padding: 10px;
+    }
+    
+    .mapTitle h4 {
+        margin: 0;
+    }
+    
+    .mapT1 {
+        font-size: 24px;
+    }
+    
+    .mapT2 {
+        font-size: 18px;
+    }
+    
+    .titleyt {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .ytBody iframe {
+        width: 100%;
+        max-width: 560px;
+    }
+    
+    .mapBody iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4 / 3;
+    }
+    
+    .footText {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .text1, .text2, .text3, .text4 {
+        text-align: center;
+    }
+    
+    .t1Head {
+        font-size: 40px;
+    }
+    
+    .t2Head, .t3Head, .t4Head {
+        font-size: 24px;
+    }
+    
+    .t2Body, .t3Body, .t4Body, .ql {
+        font-size: 16px;
+    }
+    
+    .finText {
+        padding: 15px 10px;
+    }
+    
+    #finalText {
+        font-size: 14px;
+    }
+    
+    hr, #ft {
+        width: 95%;
+    }
+    
+    /* Welcome box responsive */
+    #luxuryWelcomeBox .welcome-container {
+        width: 90%;
+        padding: 30px 20px 35px;
+        margin: 0 15px;
+    }
+    
+    #luxuryWelcomeBox .welcome-title {
+        font-size: 26px;
+    }
+    
+    #luxuryWelcomeBox .welcome-subtitle {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+    
+    #luxuryWelcomeBox .welcome-message {
+        font-size: 13px;
+    }
+    
+    #luxuryWelcomeBox .welcome-features {
+        gap: 20px;
+    }
+    
+    #luxuryWelcomeBox .feature i {
+        font-size: 20px;
+    }
+    
+    #luxuryWelcomeBox .feature span {
+        font-size: 10px;
+    }
+    
+    #luxuryWelcomeBox .welcome-btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+    
+    #luxuryWelcomeBox .deco-line {
+        width: 30px;
+    }
+    
+    #luxuryWelcomeBox .welcome-icon {
+        font-size: 35px;
+    }
+    
+    #luxuryWelcomeBox .welcome-close {
+        top: 12px;
+        right: 12px;
+        font-size: 28px;
+    }
+}
+
+/* Mobile Portrait (320px - 576px) */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 10px;
+    }
+    
+    h2#shoplogo {
+        font-size: 18px;
+    }
+    
+    nav ul {
+        gap: 8px;
+    }
+    
+    .hb {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+    
+    .homePage {
+        padding: 60px 15px;
+    }
+    
+    .homeDesign {
+        padding: 0 10px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    .ELI {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    #btn {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    
+    .containerForStory {
+        padding: 30px 15px;
+        gap: 20px;
+    }
+    
+    .storyIMG {
+        max-width: 280px;
+    }
+    
+    #OS {
+        font-size: 24px;
+    }
+    
+    .styText {
+        font-size: 14px;
+    }
+    
+    .styText p {
+        margin: 6px 0;
+    }
+    
+    .marking {
+        gap: 8px;
+    }
+    
+    .marking p {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    
+    .containerForRev {
+        padding: 60px 15px;
+    }
+    
+    #revTitle {
+        font-size: 32px;
+    }
+    
+    #revSubT {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    
+    #Sarah, #Emily, #James, #Michael {
+        padding: 25px 15px;
+    }
+    
+    .revText {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .revName {
+        font-size: 18px;
+    }
+    
+    .bi-star-fill, .bi-star-half {
+        font-size: 20px;
+    }
+    
+    .map {
+        padding: 20px 0;
+    }
+    
+    .mapTitle {
+        font-size: 22px;
+    }
+    
+    .mapBody {
+        padding: 10px;
+    }
+    
+    .mapBody iframe {
+        height: 250px;
+    }
+    
+    .mapT1 {
+        font-size: 20px;
+    }
+    
+    .mapT2 {
+        font-size: 16px;
+    }
+    
+    .video {
+        padding: 30px 15px;
+    }
+    
+    .titleyt {
+        font-size: 24px;
+    }
+    
+    .t1Head {
+        font-size: 32px;
+    }
+    
+    .t2Head, .t3Head, .t4Head {
+        font-size: 20px;
+    }
+    
+    .t2Body, .t3Body, .t4Body, .ql {
+        font-size: 14px;
+    }
+    
+    .ql {
+        padding: 5px 10px;
+    }
+    
+    #finalText {
+        font-size: 12px;
+    }
+}
+
+/* Small Mobile 375px) */
+@media screen and (max-width: 375px) {
+    h1 {
+        font-size: 24px;
+    }
+    
+    .ELI {
+        font-size: 14px;
+    }
+    
+    .storyIMG {
+        max-width: 250px;
+    }
+    
+    #OS {
+        font-size: 22px;
+    }
+    
+    #revTitle {
+        font-size: 28px;
+    }
+    
+    .mapTitle {
+        font-size: 20px;
+    }
+    
+    .titleyt {
+        font-size: 22px;
+    }
+}
+
+/* Touch device hover fix */
+@media (hover: none) and (pointer: coarse) {
+    .hb:hover, .ql:hover, button:hover, .prev:hover, .next:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .hb:active, .ql:active, button:active, #btn:active, .welcome-btn:active {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+}

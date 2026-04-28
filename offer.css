@@ -1,0 +1,1122 @@
+/* nav bar section */
+header{
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(86, 46, 46);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: large;
+}
+body{
+    margin: 0;
+}
+#shoplogo{
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: large;
+}
+.hb{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    padding: 10px;
+}
+.hb:hover{
+    color: rgb(255, 255, 0);
+     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+    border: 1px;
+    border-radius: 30px;
+}
+.shoplogo{
+    padding-left: 20px;
+}
+.shoppingCart{
+    font-size:x-large;
+} 
+#cartCount {
+    background: #ffd700;
+    color: #4a1a1a;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    display: none;
+}
+
+.cartIcon {
+    position: relative;
+}
+/* title section */
+.title{
+    background: linear-gradient(to right, rgb(111, 15, 5),rgb(114, 5, 5)) ;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1px 70px;
+    margin-bottom: 0px;
+}
+.Tit1{
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 0 300px;
+}
+#sele1{
+    font-size: 70px;
+    color: white;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+#sele2{
+    font-size: 27px;
+    color: white;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.titclock{
+    padding-right: 8px;
+    font-size: 35px;
+    color: rgb(245, 222, 13);
+}
+/* sec title section */
+#sele3{
+    font-size: 40px;
+    color: white;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+#sele4{
+    color: rgb(245, 222, 13);
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    font-size: 40px;
+    font-weight: Bold;
+}
+.may{
+    border: 2px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(119, 97, 97);
+    inset: 0;
+    opacity: 0.85;
+    content: "";
+    padding: 20px;
+}
+.z{
+    padding-top: 15px;
+}
+h1{
+    margin-left: 20px;
+    padding-left: 180px;
+    font-size: 35px;
+    color: rgb(90, 23, 23);
+}
+.Tithr{
+    height: 1px;
+    width: 75%;
+    background-color: rgb(180, 30, 30);
+    margin-bottom: 50px;
+}
+/* display card section */
+.deal-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 10px 0px 80px 0px;
+}
+.deal-card {
+  width: 350px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.deal-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+.image-box {
+  position: relative;
+}
+
+.image-box img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+/* discont section */
+.tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #f4c430;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.discount {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: #b11226;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.deal-content {
+  padding: 20px;
+}
+.Tit{
+    color: rgb(82, 42, 42);
+    padding-left: 2px;
+}
+.deal-content .Tit {
+  margin-bottom: 10px;
+}
+.price {
+  margin: 15px 0;
+}
+.old {
+  text-decoration: line-through;
+  color: gray;
+  margin-right: 10px;
+  font-size:25px;
+}
+.new {
+  color: #b11226;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #b11226;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #8f0d1e;
+  color: white;
+}
+.pricing {
+  text-align: center;
+  padding: 80px 60px;
+  background: #f4f4f4;
+}
+#secTit {
+  font-size: 50px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+#secTit{
+    justify-content: center;
+}
+.subtitle {
+  color: gray;
+  margin-bottom: 60px;
+  justify-content: center;
+  font-size: 20px;
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.price-card {
+  background: white;
+  width: 350px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  position: relative;
+  transition: 0.3s;
+}
+.price-card:hover {
+  transform: translateY(-10px);
+}
+.price {
+  font-size: 50px;
+  color: #8b0000;
+  margin: 20px 0;
+}
+
+.mon {
+  font-size: 20px;
+  color: gray;
+}
+.basicTit{
+    color:#8b0000;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.ulbd {
+  list-style: none;
+  padding-bottom: 30px;
+  text-align: left;
+  margin: 30px 0;
+}
+.ulbd,.tst {
+  margin: 12px 0;
+  position: relative;
+  padding-left: 25px;
+}
+.tst{
+    font-size: 18px;
+}
+.check{
+    color: rgb(156, 21, 21);
+    font-size: 20px;
+    padding-right: 10px;
+}
+.solid-btn {
+  width: 100%;
+  padding: 15px;
+  background: #8b0000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.outline-btn {
+  width: 100%;
+  padding: 15px;
+  background: transparent;
+  border: 2px solid #8b0000;
+  color: #8b0000;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.premium {
+  border: 3px solid gold;
+}
+
+.popular-badge {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: gold;
+  padding: 8px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+/* footer section */
+.homeFoot{
+     margin:0;
+    background-color: rgb(57, 15, 15);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 1px 0px;
+    border-bottom: 2px black;
+}
+.footText{
+    display: flex;
+    justify-content: space-around;
+}
+.t1Head{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.t2Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.t2Body{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+}
+.t3Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.bi-telephone,.bi-geo-alt, .bi-envelope, .bi-facebook, .bi-instagram{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+}
+.t3Body{
+    font-size: 19px;
+    color: rgb(146, 135, 135);  
+}
+.t4Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.t4Body,.ql{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+    text-decoration: none;
+    line-height: 35px;
+}
+.ql:hover{
+    color: rgb(204, 177, 23);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+}
+.ql{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+hr{
+    color: rgb(53, 47, 47); 
+    height: 0px;
+    width: 85%;
+}
+.finText{
+    text-align: center;
+    padding: 20px 0px;
+}
+#finalText{
+    font-size: 20px;
+    color: grey;
+}
+/* responsive section */
+/* Tablet Landscape (1024px - 1200px) */
+@media screen and (max-width: 1200px) {
+    .deal-container {
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .deal-card {
+        width: 320px;
+    }
+    
+    .pricing-container {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .price-card {
+        width: 320px;
+    }
+    
+    h1 {
+        padding-left: 100px;
+        font-size: 32px;
+    }
+    
+    .Tithr {
+        width: 85%;
+    }
+}
+
+/* Tablet Portrait (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .title {
+        padding: 1px 40px;
+    }
+    
+    .Tit1 {
+        padding: 0 100px;
+    }
+    
+    #sele1 {
+        font-size: 55px;
+        margin-top: 45px;
+    }
+    
+    #sele2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    
+    #sele3 {
+        font-size: 35px;
+        margin-top: 45px;
+    }
+    
+    .titclock {
+        font-size: 30px;
+    }
+    
+    #sele4 {
+        gap: 50px;
+        font-size: 35px;
+    }
+    
+    .may {
+        padding: 15px;
+    }
+    
+    h1 {
+        padding-left: 50px;
+        font-size: 30px;
+    }
+    
+    .Tithr {
+        width: 90%;
+    }
+    
+    .deal-container {
+        gap: 25px;
+        padding: 10px 20px 60px 20px;
+    }
+    
+    .deal-card {
+        width: 300px;
+    }
+    
+    .image-box img {
+        height: 200px;
+    }
+    
+    .deal-content {
+        padding: 18px;
+    }
+    
+    .Tit {
+        font-size: 20px;
+    }
+    
+    .deal-content p {
+        font-size: 14px;
+    }
+    
+    .old {
+        font-size: 20px;
+    }
+    
+    .new {
+        font-size: 26px;
+    }
+    
+    button {
+        padding: 12px;
+        font-size: 15px;
+    }
+    
+    .pricing {
+        padding: 60px 30px;
+    }
+    
+    #secTit {
+        font-size: 42px;
+    }
+    
+    .subtitle {
+        font-size: 18px;
+        margin-bottom: 45px;
+    }
+    
+    .pricing-container {
+        gap: 25px;
+    }
+    
+    .price-card {
+        width: 300px;
+        padding: 35px 25px;
+    }
+    
+    .price {
+        font-size: 42px;
+    }
+    
+    .mon {
+        font-size: 18px;
+    }
+    
+    .basicTit {
+        font-size: 22px;
+    }
+    
+    .tst {
+        font-size: 16px;
+    }
+    
+    .check {
+        font-size: 18px;
+    }
+    
+    .footText {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 20px;
+    }
+    
+    .text1, .text2, .text3, .text4 {
+        flex: 0 0 auto;
+        min-width: 200px;
+    }
+}
+
+/* Mobile Landscape (576px - 768px) */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    h2#shoplogo {
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hb {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+    
+    .shoppingCart {
+        font-size: 20px;
+    }
+    
+    .title {
+        padding: 1px 20px;
+    }
+    
+    .Tit1 {
+        padding: 0 30px;
+    }
+    
+    #sele1 {
+        font-size: 45px;
+        margin-top: 40px;
+    }
+    
+    #sele2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    #sele3 {
+        font-size: 28px;
+        margin-top: 35px;
+    }
+    
+    .titclock {
+        font-size: 26px;
+    }
+    
+    #sele4 {
+        gap: 30px;
+        font-size: 28px;
+    }
+    
+    .may {
+        padding: 12px;
+        font-size: 24px;
+    }
+    
+    .z {
+        font-size: 24px;
+    }
+    
+    h1 {
+        padding-left: 20px;
+        font-size: 26px;
+        text-align: center;
+    }
+    
+    .Tithr {
+        width: 95%;
+        margin: 0 auto 40px auto;
+    }
+    
+    .deal-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 15px 50px 15px;
+    }
+    
+    .deal-card {
+        width: 100%;
+        max-width: 380px;
+    }
+    
+    .image-box img {
+        height: 200px;
+    }
+    
+    .tag {
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+    
+    .discount {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    
+    .deal-content {
+        padding: 18px;
+    }
+    
+    .Tit {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    
+    .deal-content p {
+        font-size: 13px;
+    }
+    
+    .price {
+        margin: 12px 0;
+    }
+    
+    .old {
+        font-size: 18px;
+    }
+    
+    .new {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+    
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .pricing {
+        padding: 50px 20px;
+    }
+    
+    #secTit {
+        font-size: 36px;
+    }
+    
+    .subtitle {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+    
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+    
+    .price-card {
+        width: 100%;
+        max-width: 380px;
+        padding: 30px 25px;
+    }
+    
+    .price {
+        font-size: 40px;
+        margin: 15px 0;
+    }
+    
+    .mon {
+        font-size: 16px;
+    }
+    
+    .basicTit {
+        font-size: 22px;
+    }
+    
+    .ulbd {
+        margin: 20px 0;
+        padding-bottom: 20px;
+    }
+    
+    .tst {
+        font-size: 15px;
+        margin: 10px 0;
+        padding-left: 20px;
+    }
+    
+    .check {
+        font-size: 16px;
+        padding-right: 8px;
+    }
+    
+    .solid-btn, .outline-btn {
+        padding: 12px;
+        font-size: 15px;
+    }
+    
+    .popular-badge {
+        padding: 6px 15px;
+        font-size: 12px;
+        top: -12px;
+    }
+    
+    .footText {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .text1, .text2, .text3, .text4 {
+        text-align: center;
+    }
+    
+    .t1Head {
+        font-size: 40px;
+    }
+    
+    .t2Head, .t3Head, .t4Head {
+        font-size: 24px;
+    }
+    
+    .t2Body, .t3Body, .t4Body, .ql {
+        font-size: 16px;
+    }
+    
+    .finText {
+        padding: 15px 10px;
+    }
+    
+    #finalText {
+        font-size: 14px;
+    }
+    
+    hr {
+        width: 95%;
+    }
+}
+
+/* Mobile Portrait (320px - 576px) */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 10px;
+    }
+    
+    h2#shoplogo {
+        font-size: 18px;
+    }
+    
+    nav ul {
+        gap: 8px;
+    }
+    
+    .hb {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+    
+    .title {
+        padding: 1px 15px;
+    }
+    
+    .Tit1 {
+        padding: 0 15px;
+    }
+    
+    #sele1 {
+        font-size: 32px;
+        margin-top: 35px;
+        margin-bottom: 8px;
+    }
+    
+    #sele2 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    #sele3 {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    
+    .titclock {
+        font-size: 22px;
+    }
+    
+    #sele4 {
+        gap: 20px;
+        font-size: 22px;
+    }
+    
+    .may {
+        padding: 8px 12px;
+        font-size: 18px;
+    }
+    
+    .z {
+        font-size: 18px;
+    }
+    
+    h1 {
+        padding-left: 0;
+        font-size: 24px;
+        text-align: center;
+        margin: 20px 10px;
+    }
+    
+    .Tithr {
+        margin: 0 auto 30px auto;
+    }
+    
+    .deal-container {
+        padding: 10px 10px 40px 10px;
+        gap: 25px;
+    }
+    
+    .deal-card {
+        max-width: 100%;
+    }
+    
+    .image-box img {
+        height: 180px;
+    }
+    
+    .tag {
+        padding: 4px 10px;
+        font-size: 11px;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .discount {
+        padding: 5px 10px;
+        font-size: 11px;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .deal-content {
+        padding: 15px;
+    }
+    
+    .Tit {
+        font-size: 18px;
+    }
+    
+    .deal-content p {
+        font-size: 12px;
+    }
+    
+    .price {
+        margin: 10px 0;
+    }
+    
+    .old {
+        font-size: 16px;
+    }
+    
+    .new {
+        font-size: 22px;
+        padding-left: 8px;
+    }
+    
+    button {
+        padding: 8px;
+        font-size: 13px;
+    }
+    
+    .pricing {
+        padding: 40px 15px;
+    }
+    
+    #secTit {
+        font-size: 30px;
+    }
+    
+    .subtitle {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    .pricing-container {
+        gap: 25px;
+    }
+    
+    .price-card {
+        padding: 25px 20px;
+    }
+    
+    .price {
+        font-size: 36px;
+    }
+    
+    .mon {
+        font-size: 14px;
+    }
+    
+    .basicTit {
+        font-size: 20px;
+    }
+    
+    .ulbd {
+        margin: 15px 0;
+        padding-bottom: 15px;
+    }
+    
+    .tst {
+        font-size: 14px;
+        margin: 8px 0;
+        padding-left: 15px;
+    }
+    
+    .check {
+        font-size: 14px;
+        padding-right: 6px;
+    }
+    
+    .solid-btn, .outline-btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .popular-badge {
+        padding: 5px 12px;
+        font-size: 11px;
+        top: -10px;
+    }
+    
+    .t1Head {
+        font-size: 32px;
+    }
+    
+    .t2Head, .t3Head, .t4Head {
+        font-size: 20px;
+    }
+    
+    .t2Body, .t3Body, .t4Body, .ql {
+        font-size: 14px;
+    }
+    
+    .ql {
+        padding: 5px 10px;
+    }
+    
+    #finalText {
+        font-size: 12px;
+    }
+}
+
+/* Small Mobile (up to 375px) */
+@media screen and (max-width: 375px) {
+    #sele1 {
+        font-size: 28px;
+    }
+    
+    #sele2 {
+        font-size: 12px;
+    }
+    
+    #sele3 {
+        font-size: 20px;
+    }
+    
+    .titclock {
+        font-size: 18px;
+    }
+    
+    #sele4 {
+        gap: 15px;
+        font-size: 18px;
+    }
+    
+    .may {
+        padding: 6px 10px;
+        font-size: 16px;
+    }
+    
+    .z {
+        font-size: 16px;
+    }
+    
+    h1 {
+        font-size: 22px;
+    }
+    
+    .image-box img {
+        height: 160px;
+    }
+    
+    .Tit {
+        font-size: 16px;
+    }
+    
+    .new {
+        font-size: 20px;
+    }
+    
+    .old {
+        font-size: 14px;
+    }
+    
+    button {
+        padding: 7px;
+        font-size: 12px;
+    }
+    
+    #secTit {
+        font-size: 26px;
+    }
+    
+    .price {
+        font-size: 32px;
+    }
+    
+    .basicTit {
+        font-size: 18px;
+    }
+    
+    .tst {
+        font-size: 13px;
+    }
+}
+
+/* Touch device hover fix */
+@media (hover: none) and (pointer: coarse) {
+    .hb:hover, .ql:hover, button:hover, .solid-btn:hover, .outline-btn:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .hb:active, .ql:active, button:active, .solid-btn:active, .outline-btn:active {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    
+    .deal-card:hover, .price-card:hover {
+        transform: none;
+    }
+    
+    .deal-card:active, .price-card:active {
+        transform: translateY(-5px);
+    }
+}

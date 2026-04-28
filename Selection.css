@@ -1,0 +1,623 @@
+/* nav bar section */
+header{ 
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(86, 46, 46);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: large;
+}
+body{
+    margin: 0;
+}
+h2{
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: large;
+}
+.hb{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    padding: 10px;
+}
+.hb:hover{
+    color: rgb(255, 255, 0);
+     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+    border: 1px;
+    border-radius: 30px;
+}
+.shoplogo{
+    padding-left: 20px;
+}
+.shoppingCart{
+    font-size:x-large;
+} 
+#cartCount {
+    background: #ffd700;
+    color: #4a1a1a;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    display: none;
+}
+
+.cartIcon {
+    position: relative;
+}
+/* title section */
+.title{
+    background: linear-gradient(to right, rgb(111, 15, 5),rgb(114, 5, 5)) ;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1px 70px;
+    margin-bottom: 0px;
+}
+.Tit1{
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 0 300px;
+}
+#sele1{
+    font-size: 70px;
+    color: white;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+#sele2{
+    font-size: 25px;
+    color: white;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.searchArea{
+    text-align:center; 
+    padding-top: 50px;
+}
+#coffeeSearch{
+    padding: 10px 20px;
+    width: 900px;
+    height: 30px;
+    border: 2px solid #881919;
+    border-radius: 50px;
+    font-size: 18px;
+}
+.bi-search{
+    font-size: 25px;
+    padding-right: 10px;
+    color: #881919;
+}
+#classical,#italianoIMG,#supreme,#vanilla,#EliteCold,#tropical,#signature,#Americano{
+    border-radius: 5%;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.cofSel{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px;
+}
+.clsEsp,.Italiano,.supLat,.vanLat,.ecold,.Tro,.sign,.amr{
+    background: #f4f4f4;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(84, 74, 74, 0);
+    transition: 0.3s ease;
+}
+.clsEsp:hover,.Italiano:hover,.supLat:hover,.vanLat:hover,.ecold:hover,.Tro:hover,.sign:hover,.amr:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.content{
+    padding: 20px;
+}
+.cofPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.Price{
+    font-size: 25px;
+    font-weight: bold;
+    color: #8b0000;
+}
+button{
+    background: #881919;
+    color: rgb(255, 251, 251);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+}
+.coffeeSelect{
+    background: #ffffff;
+    margin: 0;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 25px;
+}
+.homeFoot{
+     margin:0;
+    background-color: rgb(57, 15, 15);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 1px 0px;
+    border-bottom: 2px black;
+}
+.footText{
+    display: flex;
+    justify-content: space-around;
+}
+.t1Head{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.t2Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.t2Body{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+}
+.t3Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.bi-telephone,.bi-geo-alt, .bi-envelope, .bi-facebook, .bi-instagram{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+}
+.t3Body{
+    font-size: 19px;
+    color: rgb(146, 135, 135);  
+}
+.t4Head{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: rgb(193, 193, 20);
+}
+.t4Body,.ql{
+    font-size: 20px;
+    color: rgb(146, 135, 135);
+    text-decoration: none;
+    line-height: 35px;
+}
+.ql:hover{
+    color: rgb(204, 177, 23);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+}
+.ql{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+hr{
+    color: rgb(53, 47, 47); 
+    height: 0px;
+    width: 85%;
+}
+.finText{
+    text-align: center;
+    padding: 20px 0px;
+}
+#finalText{
+    font-size: 20px;
+    color: grey;
+}
+
+/* responsive section */
+/* Tablet Landscape (1024px - 1200px) */
+@media screen and (max-width: 1200px) {
+    .cofSel {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 40px 30px;
+    }
+    
+    .searchArea {
+        padding-top: 40px;
+    }
+    
+    #coffeeSearch {
+        width: 700px;
+    }
+}
+
+/* Tablet Portrait (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .title {
+        padding: 1px 40px;
+    }
+    
+    .Tit1 {
+        padding: 0 100px;
+    }
+    
+    #sele1 {
+        font-size: 55px;
+        margin-top: 45px;
+    }
+    
+    #sele2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    
+    .searchArea {
+        padding-top: 35px;
+    }
+    
+    #coffeeSearch {
+        width: 550px;
+        padding: 8px 18px;
+        font-size: 16px;
+    }
+    
+    .bi-search {
+        font-size: 22px;
+    }
+    
+    .cofSel {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 30px 25px;
+    }
+    
+    .content {
+        padding: 15px;
+    }
+    
+    h3 {
+        font-size: 22px;
+        margin: 0 0 8px 0;
+    }
+    
+    .clsText, .itsText, .supText, .vanText, .ecoldText, .troText, .signText, .amrText {
+        font-size: 14px;
+    }
+    
+    .Price {
+        font-size: 22px;
+    }
+    
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    .footText {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 20px;
+    }
+    
+    .text1, .text2, .text3, .text4 {
+        flex: 0 0 auto;
+        min-width: 200px;
+    }
+}
+
+/* Mobile Landscape (576px - 768px) */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    h2#shoplogo {
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hb {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+    
+    .shoppingCart {
+        font-size: 20px;
+    }
+    
+    .title {
+        padding: 1px 20px;
+    }
+    
+    .Tit1 {
+        padding: 0 30px;
+    }
+    
+    #sele1 {
+        font-size: 45px;
+        margin-top: 40px;
+    }
+    
+    #sele2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .searchArea {
+        padding-top: 30px;
+    }
+    
+    #coffeeSearch {
+        width: 90%;
+        max-width: 500px;
+        height: 25px;
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+    
+    .bi-search {
+        font-size: 20px;
+    }
+    
+    .cofSel {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 25px 20px;
+    }
+    
+    .clsEsp, .Italiano, .supLat, .vanLat, .ecold, .Tro, .sign, .amr {
+        max-width: 450px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    #classical, #italianoIMG, #supreme, #vanilla, #EliteCold, #tropical, #signature, #Americano {
+        height: 280px;
+    }
+    
+    .content {
+        padding: 18px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    .clsText, .itsText, .supText, .vanText, .ecoldText, .troText, .signText, .amrText {
+        font-size: 13px;
+    }
+    
+    .Price {
+        font-size: 20px;
+    }
+    
+    button {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+    
+    .footText {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .text1, .text2, .text3, .text4 {
+        text-align: center;
+    }
+    
+    .t1Head {
+        font-size: 40px;
+    }
+    
+    .t2Head, .t3Head, .t4Head {
+        font-size: 24px;
+    }
+    
+    .t2Body, .t3Body, .t4Body, .ql {
+        font-size: 16px;
+    }
+    
+    .finText {
+        padding: 15px 10px;
+    }
+    
+    #finalText {
+        font-size: 14px;
+    }
+    
+    hr {
+        width: 95%;
+    }
+}
+
+/* Mobile Portrait (320px - 576px) */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 10px;
+    }
+    
+    h2#shoplogo {
+        font-size: 18px;
+    }
+    
+    nav ul {
+        gap: 8px;
+    }
+    
+    .hb {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
+    
+    .title {
+        padding: 1px 15px;
+    }
+    
+    .Tit1 {
+        padding: 0 15px;
+    }
+    
+    #sele1 {
+        font-size: 32px;
+        margin-top: 35px;
+        margin-bottom: 8px;
+    }
+    
+    #sele2 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .searchArea {
+        padding-top: 25px;
+    }
+    
+    #coffeeSearch {
+        padding: 6px 12px;
+        font-size: 14px;
+        height: 22px;
+    }
+    
+    .bi-search {
+        font-size: 18px;
+    }
+    
+    .cofSel {
+        padding: 20px 15px;
+        gap: 20px;
+    }
+    
+    #classical, #italianoIMG, #supreme, #vanilla, #EliteCold, #tropical, #signature, #Americano {
+        height: 240px;
+    }
+    
+    .content {
+        padding: 15px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    .clsText, .itsText, .supText, .vanText, .ecoldText, .troText, .signText, .amrText {
+        font-size: 12px;
+    }
+    
+    .cofPrice {
+        margin-top: 12px;
+    }
+    
+    .Price {
+        font-size: 18px;
+    }
+    
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    
+    .t1Head {
+        font-size: 32px;
+    }
+    
+    .t2Head, .t3Head, .t4Head {
+        font-size: 20px;
+    }
+    
+    .t2Body, .t3Body, .t4Body, .ql {
+        font-size: 14px;
+    }
+    
+    .ql {
+        padding: 5px 10px;
+    }
+    
+    #finalText {
+        font-size: 12px;
+    }
+}
+
+/* Small Mobile 375px) */
+@media screen and (max-width: 375px) {
+    #sele1 {
+        font-size: 28px;
+    }
+    
+    #sele2 {
+        font-size: 12px;
+    }
+    
+    #classical, #italianoIMG, #supreme, #vanilla, #EliteCold, #tropical, #signature, #Americano {
+        height: 200px;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+    
+    .Price {
+        font-size: 16px;
+    }
+    
+    button {
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+}
+
+/* Touch device hover fix */
+@media (hover: none) and (pointer: coarse) {
+    .hb:hover, .ql:hover, button:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .hb:active, .ql:active, button:active {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    
+    .clsEsp:hover, .Italiano:hover, .supLat:hover, .vanLat:hover, .ecold:hover, .Tro:hover, .sign:hover, .amr:hover {
+        transform: none;
+    }
+    
+    .clsEsp:active, .Italiano:active, .supLat:active, .vanLat:active, .ecold:active, .Tro:active, .sign:active, .amr:active {
+        transform: translateY(-3px);
+    }
+}
